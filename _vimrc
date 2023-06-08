@@ -53,6 +53,9 @@ set wildmenu
 " クリップボードと連携
 set clipboard+=unnamed
 
+" マッチ件数の表示
+set shortmess-=S
+
 " Escを2回押すとハイライトを消す
 nnoremap <Esc><Esc> :nohlsearch<CR>
 
