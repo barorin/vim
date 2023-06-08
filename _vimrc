@@ -55,3 +55,6 @@ set clipboard+=unnamed
 
 " Escを2回押すとハイライトを消す
 nnoremap <Esc><Esc> :nohlsearch<CR>
+
+" qqでEsc
+inoremap <silent> qq <ESC>
