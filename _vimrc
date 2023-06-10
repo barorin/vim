@@ -15,8 +15,8 @@ set clipboard+=unnamed " クリップボードと連携
 " 表示
 set wrap " テキストを折り返す
 set colorcolumn=80 "80文字目にラインを入れる
-set list " 不可視文字の可視化
-set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲ " 不可視文字をUnicodeで綺麗に
+" set list " 不可視文字の可視化
+" set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲ " 不可視文字をUnicodeで綺麗に
 
 " カーソル
 set number " 行番号表示
