@@ -62,10 +62,11 @@ set smartcase " 検索パターンに大文字を含んでいたら大文字小�
 set shortmess-=S " マッチ件数の表示
 nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR> " Escを2回押す度にハイライト切替
 
-" バックアップファイル、スワップファイルを作成しない
+" バックアップファイル、スワップファイル、undoファイルを作成しない
 set nowritebackup
 set nobackup
 set noswapfile
+set noundofile
 
 " キーマッピング
 inoremap <silent> jj <ESC> " jjでEsc
