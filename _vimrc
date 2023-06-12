@@ -72,6 +72,7 @@ set noundofile
 inoremap <silent> jj <ESC> " jjでEsc
 vnoremap v $h " vvで行末まで選択
 nnoremap <CR> i<Return><ESC>^ "ノーマルモード時エンターキーで改行
+nnoremap <TAB> i<TAB><ESC> "ノーマルモード時タブキーで挿入
 
 " 検索語にジャンプした検索単語を画面中央に持ってくる
 " nnoremap n nzz
