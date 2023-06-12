@@ -11,6 +11,7 @@ colorscheme monokai
 syntax enable " シンタックスハイライト
 set guifont=HackGen:h12 " フォント
 set clipboard+=unnamed " クリップボードと連携
+set visualbell " Escキー押下時のBeep音を鳴らさない
 
 " 表示
 set wrap " テキストを折り返す
